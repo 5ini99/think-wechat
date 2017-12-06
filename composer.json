@@ -1,11 +1,11 @@
 {
-    "name": "hooklife/thinkphp5-wechat",
+    "name": "5ini99/think-wechat",
     "description": "微信 SDK for thinkphp5, 基于 overtrue/wechat",
     "keywords": ["wechat", "weixin","thinkphp5"],
     "authors": [
         {
-            "name": "hooklife",
-            "email": "miaogaopeng123@gmail.com"
+            "name": "byron sampson",
+            "email": "xiaobo.sun@qq.com"
         }
     ],
     "require": {
@@ -13,14 +13,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Hooklife\\ThinkphpWechat\\": "src/"
+            "think\\": "src/"
         },
         "files": [
             "src/helper.php"
         ]
     },
-    "post-install-cmd": [
-        "Hooklife\\ThinkphpWechat\\ComposerScripts::sendConfig"
-    ],
     "license": "Apache-2.0"
 }

@@ -1,11 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: hooklife
- * Date: 2017/1/12
- * Time: 12:00
- */
-namespace  Hooklife\ThinkphpWechat;
+// +----------------------------------------------------------------------
+// | thinkphp5 Wechat [ WE CAN DO IT JUST THINK IT ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2016 http://www.zzstudio.net All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: Byron Sampson <xiaobo.sun@qq.com>
+// +----------------------------------------------------------------------
+namespace  think;
 
 use EasyWeChat\Foundation\Application;
 use think\Config;
