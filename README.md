@@ -18,7 +18,7 @@ composer require 5ini99/think-wechat
 具体参考手册 [手册](https://easywechat.org/zh-cn/docs/)
 TP中使用代码类似
 ```php
-use Hooklife\ThinkphpWechat\Wechat;
+use think\Wechat;
 Wechat::user_tag()->lists();
 Wechat::card()->lists()
 ```
